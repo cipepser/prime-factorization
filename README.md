@@ -22,5 +22,8 @@ prime_dev.rbでは2から順に割っていくため計算量が多いです。
 http://idm.s9.xrea.com/factorization/naive.html
 を参考にしています。
 
+## primeDev6.go
 
+prime_dev_6.rbのGo言語版です。
+引数ではなく、直接ソース中に対象の合成数を記載します。
 
