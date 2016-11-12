@@ -25,8 +25,7 @@ func divWhilePossible(n, prime int) (newN int, result []int) {
 
 func main() {
 	m := 1
-	n := 12
-	// var result, newResult []int
+	n := 221 // ここに合成数を記載
 	var result, newResult []int
 
 	n, newResult = divWhilePossible(n, 2)
