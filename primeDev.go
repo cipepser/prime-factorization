@@ -18,10 +18,11 @@ func main()  {
 	r := big.NewInt(0)
 
 	zero := big.NewInt(0)
+	tmp := big.NewInt(0)
 	
 	for {
-		tmp, _ := new(big.Int).SetString(n.String(), DECIMAL)
-		p, r := tmp.QuoRem(tmp, q, r)
+		tmp.Add(n, zero)
+		p, _ := tmp.QuoRem(tmp, q, r)
 
 		if r.Cmp(zero) == 0 {
 			fmt.Printf("p: %v\n", p)
