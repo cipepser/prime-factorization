@@ -27,3 +27,6 @@ http://idm.s9.xrea.com/factorization/naive.html
 prime_dev_6.rbのGo言語版です。
 引数ではなく、直接ソース中に対象の合成数を記載します。
 
+## primeDev.go
+int64を超えるような大きい数でも素因数分解できます。ただし素因数の数は2つまでです。
+(appendする、終了条件の修正で3つ以上でも素因数分解できるようになるので、Future workです)
